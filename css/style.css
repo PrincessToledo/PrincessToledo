@@ -1,0 +1,152 @@
+/* Settings */
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+html,body {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    line-height: 1.7em;
+}
+.pic {
+    width:75px;
+    height:50px;
+}
+a {
+    color: #333;
+    text-decoration: none;
+}
+h1,h2,h3 {
+    padding-bottom: 20px;
+}
+/* This serves as the container of menu */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding:0 20px;
+}
+/* Educational background */
+img.elem, img.college {
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+img.elem {
+   float: left;
+   margin-left: 80px;
+}
+img.college {
+    margin-top: 20px;
+    padding-top: 50px;
+    margin-left: 30px;
+}
+.p-left {
+    width:50%;
+    float:left;
+    padding-top:50px;
+    padding-left: 40px;
+    line-height: 40px;
+}
+.p-right {
+    width:50%;
+    float:right;
+    padding-top: 80px;
+    line-height: 40px;
+}   
+/* Design for Menu */
+#navbar {
+    background:#444;
+    color:#fff;
+    overflow:auto;
+}
+#navbar a {
+    color: #fff;
+}
+#navbar h1 {
+    float:left;
+    padding-top: 20px;
+}
+#navbar ul {
+    list-style:none;
+    float:right;
+}
+#navbar ul li {
+    float:left;
+}
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+}
+/* Design for my name and motto */
+.my-name {
+    background: url("../images/showcase.jpg") no-repeat center center/cover;
+    height: 600px;
+}
+.content {
+    color:#fff;
+    text-align: center;
+    padding-top: 180px;
+}
+.button {
+    margin-top: 30px;
+    display: inline-block;
+    border:1px solid #fff;
+    background-color:#686d76;
+    color:#fff;
+    border-radius: 20px;
+    padding: 5px 12px;
+}
+.edu {
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-image: url("../images/blossom.jpg");
+}enter
+/* Educational background */
+.dashed {
+    margin-top: 20px;
+    border-top: 2px dashed #000;
+}
+.edu .container h1 {
+    padding-top: 30px;
+    text-align: center;
+}
+/* Services */
+.triple {
+    width:300px;
+    height:300px;
+    float:left;
+    
+}
+.triple-images {
+    padding: 20px;
+    overflow: auto;
+}
+.left {
+    float: left;
+}
+.middle {
+    float: left;
+    margin-left: 50px;
+}
+.right {
+    float: right;
+}
+.clr {
+    clear:both;
+}
+.para {
+    display: inline-block
+}
+.pa-left {
+    float: left;
+    margin-left: 50px;
+}
+.pa-middle {
+    float: left;
+    margin-left: 125px;
+}
+.pa-right {
+    float:right;
+    margin-:800px;
+}
